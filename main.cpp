@@ -19,10 +19,29 @@ int main () {
         std::cout <<"Jsi moc starej" << std::endl;
 }
     else {
-    std::cout <<"Vek:" << std::endl;
+   std::cout << "jdeme dal"<< std::endl;
+   }
 
+
+    std::string vzdelani;
+
+    while(1)
+    {
+        std::cout << "Zadejte nejvyssi dosazene vzdelani (ss, vs): ";
+        std::cin >> vzdelani;
+        if (vzdelani == "ss")
+        {
+            break;
+        }
+        else if (vzdelani == "vs")
+        {
+            break;
+}
+    std::cout << "Zadejte spravne vzdelani" << std::endl;
 }
     std::cout <<"Jmeno:" << jmeno << std::endl;
     std::cout <<"Vek:" << cele_cislo << std::endl;
+    std::cout <<"Vzdelani:" << vzdelani << std::endl;
 return 0;
 }
+
