@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1665498128 source:/home/torkomik/cviceni4/cviceni4/main1.cpp
+	<iostream>
+
+1665498167 source:/home/torkomik/cviceni4/cviceni4/main2.cpp
+	<iostream>
+	<vector>
+	<fstream>
+	<string>
+	<bits/stdc++.h>
+
