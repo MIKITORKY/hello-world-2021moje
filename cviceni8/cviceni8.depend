@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1667916740 source:/home/torkomik/cviceni8/main.cpp
+	<iostream>
+	<cmath>
+
