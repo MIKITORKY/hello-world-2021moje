@@ -1,5 +1,17 @@
 # depslib dependency file v1.0
-1667916740 source:/home/torkomik/cviceni8/main.cpp
+1668524597 source:/home/torkomik/cviceni8/main.cpp
 	<iostream>
 	<cmath>
+	<fstream>
+	<vector>
+	"Uzivatel.h"
+	<algorithm>
+
+1668524266 source:/home/torkomik/cviceni8/src/uzivatel.cpp
+	"Uzivatel.h"
+	<iostream>
+
+1668524619 source:/home/torkomik/cviceni8/uzivatel.cpp
+	"Uzivatel.h"
+	<iostream>
 

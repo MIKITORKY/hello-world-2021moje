@@ -1,7 +1,19 @@
 #include <iostream>
 #include <cmath>
+#include <fstream>
+#include <vector>
+#include "Uzivatel.h"
+#include <algorithm>
 
+using namespace std;
 int main () {
+
+
+
+vector<Uzivatel> nacti(vector<Uzivatel> uzivatele)
+{
+
+//int main () {
 
  /*std::cout <<"Chcete zadat dalsi osobu?" << std::endl;
  std::string pokracovat;
@@ -9,29 +21,31 @@ int main () {
 
 pokracovat == "ano";
 */
+
 std::string pokracovat;
 do
 {
 
-	std::cout <<"Jak se jmenujete?" << std::endl;
+	std::cout <<"Jake je vase jmeno?" << std::endl;
 	std::string jmeno;
 	std::string prijmeni;
 	std::cin >> jmeno;
+	std::cout <<"Jake je vase prijmeni?" << std::endl;
     std::cin >> prijmeni;
 
-	int cele_cislo;
+	int vek;
 
         while (1) {
         std::cout <<"Kolik vam je let?" << std::endl;
 
-        std::cin >> cele_cislo;
-            if (cele_cislo < 18) {
+        std::cin >> vek;
+            if (vek < 18) {
             std::cout <<"Jsi moc mladej" << std::endl;
 
 
 
 }
-            else if (cele_cislo > 70) {
+            else if (vek > 70) {
             std::cout <<"Jsi moc starej" << std::endl;
 
 }
@@ -41,7 +55,7 @@ do
                 break;
    }
    }
-        std::cout <<"Vek:" << cele_cislo << std::endl;
+        std::cout <<"Vek:" << vek<< std::endl;
 
         std::string vzdelani;
 
@@ -61,20 +75,27 @@ do
 }
     std::cout <<"Jmeno: " << jmeno << std::endl;
     std::cout <<"Prijmeni: " << prijmeni << std::endl;
-    std::cout <<"Vek: " << cele_cislo << std::endl;
+    std::cout <<"Vek: " << vek << std::endl;
     std::cout <<"Vzdelani: " << vzdelani << std::endl;
 
 
 
     std::cout <<"Chcete zadat dalsi osobu?" << std::endl;
     std::cin >> pokracovat;
+
+    uzivatele.push_back(Uzivatel(prijmeni,jmeno,vek,vzdelani));
 }
 while (pokracovat == "ano");
 
+//uzivatele.push_back(Uzivatel(prijmeni,jmeno,vek,vzdelani));
 
-    return 0;
+    return uzivatele;
+
+   // return 0;
 }
+//}
 
 
 
 
+}
