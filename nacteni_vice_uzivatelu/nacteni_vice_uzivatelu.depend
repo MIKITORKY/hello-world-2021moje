@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1671206957 source:c:\cvut\magisterské\1. semestr\pia\hello-world-2021-marika1029-udaje-vic-uzivatelu-\hello-world-2021-marika1029-udaje-vic-uzivatelu-\uzivatel.cpp
+	"Uzivatel.h"
+	<iostream>
+
+1671206957 c:\cvut\magisterské\1. semestr\pia\hello-world-2021-marika1029-udaje-vic-uzivatelu-\hello-world-2021-marika1029-udaje-vic-uzivatelu-\uzivatel.h
+	<iostream>
+	<vector>
+
+1671207080 source:c:\cvut\magisterské\1. semestr\pia\hello-world-2021-marika1029-udaje-vic-uzivatelu-\hello-world-2021-marika1029-udaje-vic-uzivatelu-\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	"Uzivatel.h"
+	<algorithm>
+
